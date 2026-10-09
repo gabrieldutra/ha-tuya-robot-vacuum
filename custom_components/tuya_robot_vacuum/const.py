@@ -26,7 +26,7 @@ class DataPoints:
 
 # Robots by Tuya product ID. Add a product here once its numbers are known.
 PRODUCTS = {
-    # "Lds Robot"
+    # "Lds Robot", sold in Brazil as the KaBuM! Smart 900
     "7vx4ulan46paequq": DataPoints(
         status=105, battery=106, clean_time=107, clean_area=108
     ),

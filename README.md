@@ -23,9 +23,13 @@ For each supported robot:
 
 ## Supported robots
 
-| Product | Tuya product ID |
-|---|---|
-| Lds Robot | `7vx4ulan46paequq` |
+| Robot | Name in Tuya | Tuya product ID |
+|---|---|---|
+| KaBuM! Smart 900 | Lds Robot | `7vx4ulan46paequq` |
+
+The KaBuM! Smart 900 is a white-label robot sold in Brazil. The same robot is
+likely sold under other brands; if yours shows as "Lds Robot" with this
+product ID, it should work.
 
 Robots are matched by product ID, because the data point numbers differ
 between products. See [Adding a robot](#adding-a-robot).
