@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Adicionar status, bateria e progresso dos robôs aspiradores da sua conta Tuya?"
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Já configurado. Apenas uma configuração é possível."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "clean_time": { "name": "Tempo de limpeza" },
+      "clean_area": { "name": "Área limpa" }
+    }
+  }
+}

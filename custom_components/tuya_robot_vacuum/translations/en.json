@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Add status, battery and progress for the robot vacuums on your Tuya account?"
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Already configured. Only a single configuration is possible."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "clean_time": { "name": "Cleaning time" },
+      "clean_area": { "name": "Cleaned area" }
+    }
+  }
+}

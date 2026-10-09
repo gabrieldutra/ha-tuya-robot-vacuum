@@ -1,0 +1,17 @@
+{
+  "domain": "tuya_robot_vacuum",
+  "name": "Tuya Robot Vacuum",
+  "codeowners": [
+    "@gabrieldutra"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "tuya"
+  ],
+  "documentation": "https://github.com/gabrieldutra/ha-tuya-robot-vacuum",
+  "integration_type": "service",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/gabrieldutra/ha-tuya-robot-vacuum/issues",
+  "single_config_entry": true,
+  "version": "0.1.0"
+}
